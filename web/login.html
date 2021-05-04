@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>ログイン</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            body{
+                background-image: url("login.jpg");     
+                background-repeat:no-repeat; 
+                background-size:cover;
+                background-attachment: fixed;
+                background-color:ivory;
+                text-align: center;
+                margin-top:100px;              
+            }
+            table{
+                margin: auto;
+                margin-bottom: 50px;
+            }
+        </style>
+        <h1>ログイン</h1>
+        <form method="post" action="./LoginUser">
+            <table>
+                <tr>
+                    <td>ユーザ名</td>
+                    <td><input type="text" name="name" size="16"></td>
+                </tr>
+                <tr>
+                    <td>パスワード</td>
+                    <td><input type="password" name="pass" size="16"></td>
+                </tr>
+                <tr><th height="15"></th></tr>
+                <tr>
+                    <td><input type="submit" value="ログイン"></td>
+                    <td><input type="reset" value="リセット"></td>
+                </tr>
+            </table>
+        </form>
+        <a href="login2.html">新規登録</a>
+    </body>
+</html>
